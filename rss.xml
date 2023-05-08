@@ -1,0 +1,16 @@
+
+<rss version="2.0">
+  <channel>
+    <title>Your Personal Podcast</title>
+    <description>A personal podcast to record things to listen to later.</description>
+    <link>https://undefined.github.io/personal-podcast/</link>
+
+    <item>
+      <title>example-recording</title>
+      <link>https://undefined.github.io/personal-podcast/audio/example-recording.mp3</link>
+      <guid isPermaLink="false">c59e394f0e3dd144ad6104ca492a62d9</guid>
+      <pubDate>2023-05-08T16:52:43.989Z</pubDate>
+      <enclosure url="https://undefined.github.io/personal-podcast/audio/example-recording.mp3" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>
