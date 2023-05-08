@@ -1,0 +1,22 @@
+{
+  "name": "pp",
+  "version": "1.0.0",
+  "description": "Personal Podcast RSS Feed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandenbyers/pp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandenbyers/pp/issues"
+  },
+  "homepage": "https://github.com/brandenbyers/pp#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
