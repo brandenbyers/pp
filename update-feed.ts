@@ -4,7 +4,7 @@ import * as crypto from 'crypto'
 
 const audioPath = 'audio'
 const rssPath = 'rss.xml'
-const podcastName = 'pp'
+const podcastName = 'branden-pod'
 const githubUsername = 'brandenbyers'
 
 function formatDate(date: Date) {
