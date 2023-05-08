@@ -4,7 +4,9 @@
   "description": "Personal Podcast RSS Feed",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./start.sh",
+    "stop": "./stop.sh"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/brandenbyers/pp#readme",
   "devDependencies": {
+    "http-server": "^14.1.1",
     "ts-node": "^10.9.1"
   }
 }
