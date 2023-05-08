@@ -8,7 +8,7 @@ const podcastName = 'pp'
 const githubUsername = 'brandenbyers'
 
 function formatDate(date: Date) {
-  return date.toISOString()
+  return date.toUTCString()
 }
 
 function generateRSSItem(filePath: string, fileName: string, ngrokUrl: string) {
@@ -42,11 +42,13 @@ const audioFiles = fs
 const ngrokUrl = process.env.NGROK_URL ?? ''
 
 const updatedRSSContent = `
-<rss version="2.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>pp</title>
+    <title>${podcastName}</title>
     <description>A personal podcast to record things to listen to later.</description>
     <link>https://${githubUsername}.github.io/${podcastName}/</link>
+    <itunes:image href="https://${githubUsername}.github.io/${podcastName}/pp.png" />
 ${audioFiles
   .map((file) => generateRSSItem(path.join(audioPath, file), file, ngrokUrl))
   .join('')}
