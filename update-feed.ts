@@ -41,9 +41,8 @@ const audioFiles = fs
   .filter((file) => path.extname(file) === '.mp3')
 const ngrokUrl = process.env.NGROK_URL ?? ''
 
-const updatedRSSContent = `
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+const updatedRSSContent = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>${podcastName}</title>
     <description>A personal podcast to record things to listen to later.</description>
@@ -53,7 +52,6 @@ ${audioFiles
   .map((file) => generateRSSItem(path.join(audioPath, file), file, ngrokUrl))
   .join('')}
   </channel>
-</rss>
-`
+</rss>`
 
 fs.writeFileSync(rssPath, updatedRSSContent)
