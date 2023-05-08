@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
-  <channel>
-    <title>pp</title>
-    <description>A personal podcast to record things to listen to later.</description>
-    <link>https://brandenbyers.github.io/pp/</link>
+<title>pp</title>
+<description>A personal podcast to record things to listen to later.</description>
+<link>https://brandenbyers.github.io/pp/</link>
+<itunes:image href="https://brandenbyers.github.io/pp/pp.png" />
 
     <item>
       <title>example-recording</title>
-      <link>https://cf52-67-170-139-227.ngrok-free.app/audio/example-recording.mp3</link>
+      <link>https://e34b-67-170-139-227.ngrok-free.app/audio/example-recording.mp3</link>
       <guid isPermaLink="false">c59e394f0e3dd144ad6104ca492a62d9</guid>
       <pubDate>Mon, 08 May 2023 16:52:43 GMT</pubDate>
-      <enclosure url="https://cf52-67-170-139-227.ngrok-free.app/audio/example-recording.mp3" type="audio/mpeg"/>
+      <enclosure url="https://e34b-67-170-139-227.ngrok-free.app/audio/example-recording.mp3" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
