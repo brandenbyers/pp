@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>pp</title>
+    <title>branden-pod</title>
     <description>A personal podcast to record things to listen to later.</description>
-    <link>https://brandenbyers.github.io/pp/</link>
-    <itunes:image href="https://brandenbyers.github.io/pp/pp.png" />
+    <link>https://brandenbyers.github.io/branden-pod/</link>
+    <itunes:image href="https://brandenbyers.github.io/branden-pod/pp.png" />
 
     <item>
-      <title>example-recording</title>
-      <link>https://eaea-67-170-139-227.ngrok-free.app/audio/example-recording.mp3</link>
-      <guid isPermaLink="false">c59e394f0e3dd144ad6104ca492a62d9</guid>
-      <pubDate>Mon, 08 May 2023 16:52:43 GMT</pubDate>
-      <enclosure url="https://eaea-67-170-139-227.ngrok-free.app/audio/example-recording.mp3" type="audio/mpeg"/>
+      <title>music-theory-ch1-ch2</title>
+      <link>https://cb5b-67-170-139-227.ngrok-free.app/audio/music-theory-ch1-ch2.mp3</link>
+      <guid isPermaLink="false">04748d43d24bb262e88b94ef90a88d7b</guid>
+      <pubDate>Mon, 08 May 2023 23:21:56 GMT</pubDate>
+      <enclosure url="https://cb5b-67-170-139-227.ngrok-free.app/audio/music-theory-ch1-ch2.mp3" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
