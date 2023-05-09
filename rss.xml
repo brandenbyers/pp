@@ -8,10 +8,17 @@
 
     <item>
       <title>music-theory-ch1-ch2</title>
-      <link>https://268d-67-170-139-227.ngrok-free.app/audio/music-theory-ch1-ch2.mp3</link>
+      <link>https://b232-67-170-139-227.ngrok-free.app/audio/music-theory-ch1-ch2.mp3</link>
       <guid isPermaLink="false">04748d43d24bb262e88b94ef90a88d7b</guid>
       <pubDate>Mon, 08 May 2023 23:21:56 GMT</pubDate>
-      <enclosure url="https://268d-67-170-139-227.ngrok-free.app/audio/music-theory-ch1-ch2.mp3" type="audio/mpeg"/>
+      <enclosure url="https://b232-67-170-139-227.ngrok-free.app/audio/music-theory-ch1-ch2.mp3" type="audio/mpeg"/>
+    </item>
+    <item>
+      <title>music-theory-end</title>
+      <link>https://b232-67-170-139-227.ngrok-free.app/audio/music-theory-end.mp3</link>
+      <guid isPermaLink="false">38db28ab56aac07415b27cb15efe7358</guid>
+      <pubDate>Tue, 09 May 2023 01:00:13 GMT</pubDate>
+      <enclosure url="https://b232-67-170-139-227.ngrok-free.app/audio/music-theory-end.mp3" type="audio/mpeg"/>
     </item>
   </channel>
 </rss>
